@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+
+.coin-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #334155;
+}
+
+.top-desc {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #334155;
+}
+.logo {
+  width: 40vh;
+}
+
+.button {
+  color: #e2a139;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 10px;
+  border-color: grey;
+  cursor: pointer;
+}
+.desc {
+  margin: 15px;
+}
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color: #475569;
+}
+
+@media (min-width: 768px) {
+  .results {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    color: #475569;
+  }
+}
